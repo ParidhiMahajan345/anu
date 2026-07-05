@@ -1,0 +1,219 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:2:1-36:12
+	package
+		INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:2:70-116
+	xmlns:android
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:2:117-147
+	xmlns:horizonos
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:2:148-194
+uses-permission#com.oculus.permission.HAND_TRACKING
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:3:3-73
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:3:20-70
+uses-permission#com.oculus.permission.USE_ANCHOR_API
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:4:3-74
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:4:20-71
+uses-permission#com.oculus.permission.USE_SCENE
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:5:3-69
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:5:20-66
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:6:3-65
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:6:20-62
+uses-feature#android.hardware.vr.headtracking
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:7:3-111
+	android:version
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:7:65-84
+	android:required
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:7:85-108
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:7:17-64
+uses-feature#oculus.software.handtracking
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:8:3-88
+	android:required
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:8:61-85
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:8:17-60
+uses-feature#0x00030000
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:9:3-52
+	android:glEsVersion
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:9:17-49
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:10:3-88
+	android:required
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:10:61-85
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:10:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:11:3-99
+	android:required
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:11:72-96
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:11:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:12:3-108
+	android:required
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:12:81-105
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:12:17-80
+application
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:3-34:17
+	android:extractNativeLibs
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:152-184
+	android:label
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+	android:icon
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:49-80
+	android:allowBackup
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:81-108
+	android:networkSecurityConfig
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:185-240
+	android:enableOnBackInvokedCallback
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:109-151
+meta-data#unityplayer.SkipPermissionsDialog
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:14:5-89
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:14:65-86
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:14:16-64
+meta-data#com.oculus.handtracking.frequency
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:15:5-87
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:15:65-84
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:15:16-64
+meta-data#com.oculus.ossplash.background
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:16:5-103
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:16:62-100
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:16:16-61
+meta-data#com.oculus.telemetry.project_guid
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:17:5-120
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:17:65-117
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:17:16-64
+meta-data#com.oculus.supportedDevices
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:18:5-138
+	tools:replace
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:18:106-135
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:18:59-105
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:18:16-58
+meta-data#unity.splash-mode
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:19:5-69
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:19:49-66
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:19:16-48
+meta-data#unity.splash-enable
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:20:5-74
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:20:51-71
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:20:16-50
+meta-data#unity.launch-fullscreen
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:21:5-78
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:21:55-75
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:21:16-54
+meta-data#unity.render-outside-safearea
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:22:5-84
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:22:61-81
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:22:16-60
+meta-data#notch.config
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:23:5-81
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:23:44-78
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:23:16-43
+meta-data#unity.auto-report-fully-drawn
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:24:5-84
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:24:61-81
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:24:16-60
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:5-33:16
+	android:screenOrientation
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:406-443
+	android:excludeFromRecents
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:348-381
+	android:launchMode
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:262-293
+	android:hardwareAccelerated
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:479-514
+	android:exported
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:382-405
+	android:resizeableActivity
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:444-478
+	android:configChanges
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:80-261
+	android:theme
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:15-79
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:294-347
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:com.oculus.intent.category.VR
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:26:7-30:23
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:27:9-69
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:27:19-66
+category#com.oculus.intent.category.VR
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:28:9-66
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:28:19-63
+action#android.intent.action.MAIN
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:29:9-61
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:29:17-58
+meta-data#com.oculus.vr.focusaware
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:31:7-81
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:31:58-78
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:31:18-57
+meta-data#notch_support
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:32:7-70
+	android:value
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:32:47-67
+	android:name
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:32:18-46
+horizonos:uses-horizonos-sdk
+ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:35:3-143
+	horizonos:minSdkVersion
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:35:33-61
+	horizonos:targetSdkVersion
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:35:62-93
+	xmlns:horizonos
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:35:94-140
+uses-sdk
+INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml

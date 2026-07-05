@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.UnityTechnologies.XR.Manifest.test" >
+4
+5    <uses-sdk
+5-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:5:5-74
+6        android:minSdkVersion="32"
+6-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:5:15-41
+7        android:targetSdkVersion="22" />
+7-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:11:5-15:88
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:13:22-53
+13        android:label="Tests for com.UnityTechnologies.XR.Manifest.test"
+13-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:15:22-86
+14        android:targetPackage="com.UnityTechnologies.XR.Manifest.test" />
+14-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:12:22-84
+15
+16    <uses-feature
+16-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-10:31
+17        android:name="android.hardware.vr.headtracking"
+17-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-56
+18        android:required="true"
+18-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-32
+19        android:version="1" />
+19-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-28
+20    <uses-feature
+20-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-13:35
+21        android:name="oculus.software.eye_tracking"
+21-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-52
+22        android:required="true" />
+22-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-32
+23
+24    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
+24-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-74
+24-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-71
+25
+26    <application
+26-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:7:5-9:19
+27        android:debuggable="true"
+28        android:extractNativeLibs="false" >
+29        <uses-library android:name="android.test.runner" />
+29-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:8:9-60
+29-->C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7820085991455860823.xml:8:23-57
+30
+31        <activity
+31-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-24:20
+32            android:name="com.unity3d.player.UnityPlayerActivity"
+32-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-66
+33            android:exported="true" >
+33-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-36
+34            <meta-data
+34-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:40
+35                android:name="com.oculus.vr.focusaware"
+35-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-56
+36                android:value="true" />
+36-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-37
+37        </activity>
+38
+39        <meta-data
+39-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-28:67
+40            android:name="com.oculus.supportedDevices"
+40-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-55
+41            android:value="quest|quest2|cambria|eureka|quest3s" />
+41-->[:unityLibrary:xrmanifest.androidlib] C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-64
+42    </application>
+43
+44</manifest>

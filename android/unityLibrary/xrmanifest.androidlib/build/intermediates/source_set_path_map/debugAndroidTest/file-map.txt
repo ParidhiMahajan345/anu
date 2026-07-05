@@ -1,0 +1,6 @@
+com.UnityTechnologies.XR.Manifest.test.xrmanifest.androidlib-androidTest-0 C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\generated\res\resValues\androidTest\debug
+com.UnityTechnologies.XR.Manifest.test.xrmanifest.androidlib-androidTest-1 C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\generated\res\rs\androidTest\debug
+com.UnityTechnologies.XR.Manifest.test.xrmanifest.androidlib-mergeDebugAndroidTestResources-2 C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.UnityTechnologies.XR.Manifest.test.xrmanifest.androidlib-mergeDebugAndroidTestResources-3 C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.UnityTechnologies.XR.Manifest.test.xrmanifest.androidlib-merged_res-4 C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_res\debugAndroidTest
+com.UnityTechnologies.XR.Manifest.test.xrmanifest.androidlib-packaged_res-5 C:\Users\DELL\Desktop\APP\unityLibrary\xrmanifest.androidlib\build\intermediates\packaged_res\debug

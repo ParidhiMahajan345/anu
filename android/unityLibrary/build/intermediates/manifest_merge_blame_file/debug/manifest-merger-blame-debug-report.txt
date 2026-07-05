@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:horizonos="http://schemas.horizonos/sdk"
+4    xmlns:tools="http://schemas.android.com/tools"
+5    package="com.unity3d.player"
+6    android:installLocation="auto" >
+7
+8    <uses-sdk android:minSdkVersion="32" />
+8-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+10-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:3:3-73
+10-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:3:20-70
+11    <uses-permission android:name="com.oculus.permission.USE_ANCHOR_API" />
+11-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:4:3-74
+11-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:4:20-71
+12    <uses-permission android:name="com.oculus.permission.USE_SCENE" />
+12-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:5:3-69
+12-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:5:20-66
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:6:3-65
+13-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:6:20-62
+14
+15    <uses-feature
+15-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:7:3-111
+16        android:name="android.hardware.vr.headtracking"
+16-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:7:17-64
+17        android:required="true"
+17-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:7:85-108
+18        android:version="1" />
+18-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:7:65-84
+19    <uses-feature
+19-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:8:3-88
+20        android:name="oculus.software.handtracking"
+20-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:8:17-60
+21        android:required="false" />
+21-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:8:61-85
+22    <uses-feature android:glEsVersion="0x00030000" />
+22-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:9:3-52
+22-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:9:17-49
+23    <uses-feature
+23-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:10:3-88
+24        android:name="android.hardware.touchscreen"
+24-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:10:17-60
+25        android:required="false" />
+25-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:10:61-85
+26    <uses-feature
+26-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:11:3-99
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:11:17-71
+28        android:required="false" />
+28-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:11:72-96
+29    <uses-feature
+29-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:12:3-108
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:12:17-80
+31        android:required="false" />
+31-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:12:81-105
+32
+33    <horizonos:uses-horizonos-sdk
+33-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:35:3-143
+34        xmlns:horizonos="http://schemas.horizonos/sdk"
+34-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:35:94-140
+35        horizonos:minSdkVersion="60"
+35-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:35:33-61
+36        horizonos:targetSdkVersion="85" />
+36-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:35:62-93
+37
+38    <application
+38-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:3-34:17
+39        android:allowBackup="false"
+39-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:81-108
+40        android:enableOnBackInvokedCallback="true"
+40-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:109-151
+41        android:extractNativeLibs="true"
+41-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:152-184
+42        android:icon="@mipmap/app_icon"
+42-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:49-80
+43        android:label="@string/app_name"
+43-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+44        android:networkSecurityConfig="@xml/network_sec_config" >
+44-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:13:185-240
+45        <meta-data
+45-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:14:5-89
+46            android:name="unityplayer.SkipPermissionsDialog"
+46-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:14:16-64
+47            android:value="false" />
+47-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:14:65-86
+48        <meta-data
+48-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:15:5-87
+49            android:name="com.oculus.handtracking.frequency"
+49-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:15:16-64
+50            android:value="LOW" />
+50-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:15:65-84
+51        <meta-data
+51-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:16:5-103
+52            android:name="com.oculus.ossplash.background"
+52-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:16:16-61
+53            android:value="passthrough-contextual" />
+53-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:16:62-100
+54        <meta-data
+54-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:17:5-120
+55            android:name="com.oculus.telemetry.project_guid"
+55-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:17:16-64
+56            android:value="3ffd6b2f-76fc-4853-a282-e70f5343097a" />
+56-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:17:65-117
+57        <meta-data
+57-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:18:5-138
+58            android:name="com.oculus.supportedDevices"
+58-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:18:16-58
+59            android:value="quest2|questpro|quest3|quest3s"
+59-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:18:59-105
+60            tools:replace="android:value" />
+60-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:18:106-135
+61        <meta-data
+61-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:19:5-69
+62            android:name="unity.splash-mode"
+62-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:19:16-48
+63            android:value="0" />
+63-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:19:49-66
+64        <meta-data
+64-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:20:5-74
+65            android:name="unity.splash-enable"
+65-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:20:16-50
+66            android:value="True" />
+66-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:20:51-71
+67        <meta-data
+67-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:21:5-78
+68            android:name="unity.launch-fullscreen"
+68-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:21:16-54
+69            android:value="True" />
+69-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:21:55-75
+70        <meta-data
+70-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:22:5-84
+71            android:name="unity.render-outside-safearea"
+71-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:22:16-60
+72            android:value="True" />
+72-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:22:61-81
+73        <meta-data
+73-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:23:5-81
+74            android:name="notch.config"
+74-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:23:16-43
+75            android:value="portrait|landscape" />
+75-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:23:44-78
+76        <meta-data
+76-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:24:5-84
+77            android:name="unity.auto-report-fully-drawn"
+77-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:24:16-60
+78            android:value="true" />
+78-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:24:61-81
+79
+80        <activity
+80-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:5-33:16
+81            android:name="com.unity3d.player.UnityPlayerActivity"
+81-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:294-347
+82            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+82-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:80-261
+83            android:excludeFromRecents="true"
+83-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:348-381
+84            android:exported="true"
+84-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:382-405
+85            android:hardwareAccelerated="false"
+85-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:479-514
+86            android:launchMode="singleTask"
+86-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:262-293
+87            android:resizeableActivity="false"
+87-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:444-478
+88            android:screenOrientation="landscape"
+88-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:406-443
+89            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+89-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:25:15-79
+90            <intent-filter>
+90-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:26:7-30:23
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:27:9-69
+91-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:27:19-66
+92                <category android:name="com.oculus.intent.category.VR" />
+92-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:28:9-66
+92-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:28:19-63
+93
+94                <action android:name="android.intent.action.MAIN" />
+94-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:29:9-61
+94-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:29:17-58
+95            </intent-filter>
+96
+97            <meta-data
+97-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:31:7-81
+98                android:name="com.oculus.vr.focusaware"
+98-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:31:18-57
+99                android:value="true" />
+99-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:31:58-78
+100            <meta-data
+100-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:32:7-70
+101                android:name="notch_support"
+101-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:32:18-46
+102                android:value="true" />
+102-->C:\Users\DELL\Desktop\APP\unityLibrary\src\main\AndroidManifest.xml:32:47-67
+103        </activity>
+104    </application>
+105
+106</manifest>
